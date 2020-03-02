@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		6CC31B98240B842E008FA07D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC31B97240B842E008FA07D /* AppDelegate.swift */; };
 		6CC31B9A240B842E008FA07D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC31B99240B842E008FA07D /* SceneDelegate.swift */; };
-		6CC31B9C240B842E008FA07D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC31B9B240B842E008FA07D /* ViewController.swift */; };
 		6CC31BA2240B842E008FA07D /* DocFinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6CC31BA0240B842E008FA07D /* DocFinder.xcdatamodeld */; };
 		6CC31BA4240B8432008FA07D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CC31BA3240B8432008FA07D /* Assets.xcassets */; };
 		6CC31BA7240B8432008FA07D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CC31BA5240B8432008FA07D /* LaunchScreen.storyboard */; };
@@ -18,13 +17,17 @@
 		6CC31BB3240B9C40008FA07D /* DoctorsNearbyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC31BB2240B9C40008FA07D /* DoctorsNearbyView.swift */; };
 		6CC31BB5240B9D2B008FA07D /* BlueLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC31BB4240B9D2B008FA07D /* BlueLineView.swift */; };
 		6CC31BB7240B9DB1008FA07D /* DFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC31BB6240B9DB1008FA07D /* DFButton.swift */; };
+		6CC31BB9240CAFB5008FA07D /* MainInsuranceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC31BB8240CAFB5008FA07D /* MainInsuranceView.swift */; };
+		6CC31BBB240CB455008FA07D /* TransparentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC31BBA240CB455008FA07D /* TransparentButton.swift */; };
+		6CC31BBD240CB8E6008FA07D /* MyDoctorsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC31BBC240CB8E6008FA07D /* MyDoctorsButton.swift */; };
+		6CC31BC4240CC925008FA07D /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC31BC3240CC925008FA07D /* HomePageViewController.swift */; };
+		6CC31BC6240CCA1B008FA07D /* MainPageDoctorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC31BC5240CCA1B008FA07D /* MainPageDoctorsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6CC31B94240B842E008FA07D /* DocFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CC31B97240B842E008FA07D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6CC31B99240B842E008FA07D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6CC31B9B240B842E008FA07D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6CC31BA1240B842E008FA07D /* DocFinder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DocFinder.xcdatamodel; sourceTree = "<group>"; };
 		6CC31BA3240B8432008FA07D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CC31BA6240B8432008FA07D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -34,6 +37,11 @@
 		6CC31BB2240B9C40008FA07D /* DoctorsNearbyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsNearbyView.swift; sourceTree = "<group>"; };
 		6CC31BB4240B9D2B008FA07D /* BlueLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueLineView.swift; sourceTree = "<group>"; };
 		6CC31BB6240B9DB1008FA07D /* DFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DFButton.swift; sourceTree = "<group>"; };
+		6CC31BB8240CAFB5008FA07D /* MainInsuranceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainInsuranceView.swift; sourceTree = "<group>"; };
+		6CC31BBA240CB455008FA07D /* TransparentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentButton.swift; sourceTree = "<group>"; };
+		6CC31BBC240CB8E6008FA07D /* MyDoctorsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDoctorsButton.swift; sourceTree = "<group>"; };
+		6CC31BC3240CC925008FA07D /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		6CC31BC5240CCA1B008FA07D /* MainPageDoctorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageDoctorsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,18 +76,46 @@
 			children = (
 				6CC31B97240B842E008FA07D /* AppDelegate.swift */,
 				6CC31B99240B842E008FA07D /* SceneDelegate.swift */,
-				6CC31B9B240B842E008FA07D /* ViewController.swift */,
-				6CC31BB6240B9DB1008FA07D /* DFButton.swift */,
-				6CC31BB4240B9D2B008FA07D /* BlueLineView.swift */,
-				6CC31BB2240B9C40008FA07D /* DoctorsNearbyView.swift */,
+				6CC31BC3240CC925008FA07D /* HomePageViewController.swift */,
+				6CC31BBE240CC8A0008FA07D /* Views */,
 				6CC31BB0240B9595008FA07D /* UIColor+Ext.swift */,
-				6CC31BAE240B8AC9008FA07D /* MainTopView.swift */,
 				6CC31BA3240B8432008FA07D /* Assets.xcassets */,
 				6CC31BA5240B8432008FA07D /* LaunchScreen.storyboard */,
 				6CC31BA8240B8432008FA07D /* Info.plist */,
 				6CC31BA0240B842E008FA07D /* DocFinder.xcdatamodeld */,
 			);
 			path = DocFinder;
+			sourceTree = "<group>";
+		};
+		6CC31BBE240CC8A0008FA07D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6CC31BBF240CC8BA008FA07D /* Custom Views */,
+				6CC31BC0240CC8C5008FA07D /* HomePageViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6CC31BBF240CC8BA008FA07D /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				6CC31BC5240CCA1B008FA07D /* MainPageDoctorsView.swift */,
+				6CC31BB6240B9DB1008FA07D /* DFButton.swift */,
+				6CC31BBA240CB455008FA07D /* TransparentButton.swift */,
+				6CC31BBC240CB8E6008FA07D /* MyDoctorsButton.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		6CC31BC0240CC8C5008FA07D /* HomePageViews */ = {
+			isa = PBXGroup;
+			children = (
+				6CC31BB4240B9D2B008FA07D /* BlueLineView.swift */,
+				6CC31BB2240B9C40008FA07D /* DoctorsNearbyView.swift */,
+				6CC31BB8240CAFB5008FA07D /* MainInsuranceView.swift */,
+				6CC31BAE240B8AC9008FA07D /* MainTopView.swift */,
+			);
+			path = HomePageViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,13 +188,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CC31BBB240CB455008FA07D /* TransparentButton.swift in Sources */,
+				6CC31BB9240CAFB5008FA07D /* MainInsuranceView.swift in Sources */,
 				6CC31BB5240B9D2B008FA07D /* BlueLineView.swift in Sources */,
 				6CC31BA2240B842E008FA07D /* DocFinder.xcdatamodeld in Sources */,
-				6CC31B9C240B842E008FA07D /* ViewController.swift in Sources */,
 				6CC31BB7240B9DB1008FA07D /* DFButton.swift in Sources */,
 				6CC31B98240B842E008FA07D /* AppDelegate.swift in Sources */,
 				6CC31BB1240B9595008FA07D /* UIColor+Ext.swift in Sources */,
+				6CC31BBD240CB8E6008FA07D /* MyDoctorsButton.swift in Sources */,
+				6CC31BC4240CC925008FA07D /* HomePageViewController.swift in Sources */,
 				6CC31B9A240B842E008FA07D /* SceneDelegate.swift in Sources */,
+				6CC31BC6240CCA1B008FA07D /* MainPageDoctorsView.swift in Sources */,
 				6CC31BAF240B8AC9008FA07D /* MainTopView.swift in Sources */,
 				6CC31BB3240B9C40008FA07D /* DoctorsNearbyView.swift in Sources */,
 			);

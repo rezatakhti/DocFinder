@@ -19,16 +19,44 @@ class MainTopView : UIView {
     
     let darkenOverlay : UIView = {
         let view = UIView()
-        view.backgroundColor = .black
+        view.backgroundColor = .darkenOverlay
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
+    
+    let insuranceView = MainInsuranceView(hasSelectedInsurance: false)
+    let myDoctorsButton = MyDoctorsButton()
     
     override init(frame: CGRect){
         super.init(frame: frame)
         backgroundColor = .systemBackgroundDF
         translatesAutoresizingMaskIntoConstraints = false
         setupImageView()
+        setupInsuranceView()
+        setupMyDoctorsButton()
+    }
+    
+    private func setupMyDoctorsButton(){
+        addSubview(myDoctorsButton)
+
+        
+        NSLayoutConstraint.activate([
+            myDoctorsButton.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 32),
+            myDoctorsButton.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -32),
+            myDoctorsButton.heightAnchor.constraint(equalTo: heightAnchor, multiplier: 0.3),
+            myDoctorsButton.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -32)
+        ])
+    }
+    
+    private func setupInsuranceView() {
+        addSubview(insuranceView)
+        
+        NSLayoutConstraint.activate([
+            insuranceView.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor),
+            insuranceView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 16),
+            insuranceView.widthAnchor.constraint(equalTo: widthAnchor, multiplier: 0.8),
+            insuranceView.heightAnchor.constraint(equalTo: heightAnchor, multiplier: 1/3)
+        ])
     }
     
     private func setupImageView() {
